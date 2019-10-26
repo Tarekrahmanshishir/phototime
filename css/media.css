@@ -1,0 +1,253 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*navr start*/
+.logo {
+    width: 170px;
+}
+.menu ul li a {
+    padding: 0 !important;
+}
+/*navr end*/
+/*banner start*/
+.banner_content {
+    padding: 70px 0;
+}
+.banner_content h1 {
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing:0px; 
+
+}
+.banner_content p {
+    font-size: 12px;
+    word-spacing: 2px;
+   	letter-spacing: 0px; 
+}
+.btn-custom {
+    padding: 8px 19px;
+    font-size: 10px;
+}
+/*banner end*/
+/*sample start*/
+.sample_photo {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.sample_content {
+    padding-top: 0px;
+}
+.sample_content {
+    padding-top: 0px;
+    text-align: center;
+}
+.sample_photo h1 {
+    font-size: 16px;
+    word-spacing: 4;
+    letter-spacing: 5;
+}
+.sample_photo p {
+    padding: 20px 20px;
+    letter-spacing: 0;
+}
+/*sample end*/
+/*portfolio start*/
+.portfolio {
+    padding: 40px 0;
+}
+.section-header {
+    padding-bottom: 10px;
+}
+.section-header h2 {
+    font-size: 26px;
+}
+/*portfolio end*/
+/*service start*/
+.service {
+    padding: 40px 20px 40px 56px;
+}
+.service i {
+    font-size: 23px;
+}
+/*service end*/
+/*contact start*/
+.form {
+    padding: 150px 0;
+}
+.form-custom {
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+}
+.form h2 {
+    font-size: 16px;
+    word-spacing: 0
+    margin-bottom: 16px;; 
+}
+/*contact end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*nave start*/
+.menu ul li a {
+    padding: 0 !important;
+}
+/*nave end*/
+/*banner start*/
+.banner_content {
+    padding: 110px 0;
+}
+.banner_content h1 {
+    font-weight: 700;
+    font-size: 29px;
+     word-spacing: 0; 
+     letter-spacing: 0; 
+}
+.banner_content p {
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.btn-custom {
+    padding: 10px 25px;
+}
+/*banner end*/
+/*sample start*/
+.sample_photo {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.sample_content {
+    padding-top: 0px;
+}
+.sample_content {
+    padding-top: 0px;
+    text-align: center;
+}
+.sample_photo h1 {
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.sample_photo p {
+    padding: 20px 20px;
+}
+/*sample end*/
+/*service start*/
+.service {
+    padding: 40px 20px 40px 56px;
+}
+.service i {
+    font-size: 23px;
+}
+.service h3 {
+    font-size: 15px;
+}
+.service p {
+    font-size: 11px;
+}
+/*service end*/
+/*contact start*/
+.form {
+    padding: 150px 0;
+}
+.form-custom {
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+}
+.form h2 {
+    font-size: 20px;
+    word-spacing: 0; 
+    letter-spacing: 0; 
+}
+/*contact end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*nave start*/
+.menu ul li a {
+    padding: 0 !important;
+}
+/*nave end*/
+/*banner start*/
+.banner_content {
+    padding: 110px 0;
+}
+.banner_content h1 {
+    font-weight: 700;
+    font-size: 29px;
+     word-spacing: 0; 
+     letter-spacing: 0; 
+}
+.banner_content p {
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.btn-custom {
+    padding: 10px 25px;
+}
+/*banner end*/
+/*sample start*/
+.sample_photo {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.sample_content {
+    padding-top: 0px;
+    text-align: center;
+}
+.sample_photo h1 {
+    font-size: 20px;
+    word-spacing: 11px;
+    letter-spacing: 3px;
+}
+.sample_photo p {
+    padding: 20px 20px;
+}
+/*sample end*/
+/*portfolio start*/
+.work .work-content span {
+    font-size: 14px;
+}
+.work .work-content h3 {
+    font-size: 19px;
+}
+
+/*portfolio end*/
+/*contact start*/
+.form h2 {
+    font-size: 20px;
+    word-spacing: 0; 
+    letter-spacing: 0; 
+}
+/*contact end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*sample start*/
+.sample_photo h1 {
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+.sample_content {
+     padding-top: 0px; 
+}
+/*sample end*/
+/*contact start*/
+.form h2 {
+     word-spacing: 0; 
+     letter-spacing: 0; 
+}
+/*contact end*/
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+}
